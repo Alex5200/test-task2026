@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ef289cfe-e89f-40d1-a77b-ee9f4d110c65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/Vector 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 2-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 2-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 4-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Vector 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/PT_Sans/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/PT_Sans/PTSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/PT_Sans/PTSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/PT_Sans/PTSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/PT_Sans/PTSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hook/useAnimatedCounter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TimelineBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TimelineBlock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,27 +40,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "dev",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "npm.npm start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\SahaA\\Documents\\GitHub\\test-task2026\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\SahaA\\Documents\\GitHub\\test-task2026\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\SahaA\Documents\GitHub\test-task2026\src\components" />
@@ -137,6 +118,7 @@
       <workItem from="1757485946007" duration="7000" />
       <workItem from="1757486031703" duration="377000" />
       <workItem from="1757486845547" duration="6715000" />
+      <workItem from="1757519005172" duration="1793000" />
     </task>
     <servers />
   </component>
