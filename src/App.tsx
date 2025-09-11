@@ -1,6 +1,28 @@
 import {TimelineBlock} from './components/TimelineBlock';
 import './styles/global.css';
 import { Period } from './types/timeline';
+import styled from 'styled-components';
+
+const AppContainer = styled.div`
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f8fafc;
+  padding: 0;
+  overflow: hidden;
+`;
+
+const ContentContainer = styled.div`
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+`;
 
 const App: React.FC = () => {
     const periods: Period[] = [
@@ -49,9 +71,11 @@ const App: React.FC = () => {
     ];
 
     return (
-        <div>
-            <TimelineBlock periods={periods} />
-        </div>
+        <AppContainer>
+            <ContentContainer>
+                <TimelineBlock periods={periods} />
+            </ContentContainer>
+        </AppContainer>
     );
 };
 
