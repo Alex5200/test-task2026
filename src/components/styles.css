@@ -1,0 +1,120 @@
+/* Анимированный круг и точки */
+body{
+    background-color: #F4F5F9;
+}
+.rotating-wheel {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 810px;
+    top: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    will-change: transform;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    z-index: 10;
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #94a3b8;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: transparent;
+    font-size: 0;
+}
+
+.dot.active {
+    background: #6366f1;
+}
+
+.dot:hover {
+    background: #6366f1;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateX(150px) scale(2.5) !important;
+}
+
+.dot:hover::after {
+    content: attr(data-period-id);
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #e2e8f0;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #2d3748;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 1;
+    pointer-events: none;
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+/* Навигационные элементы */
+.navigation-controls {
+    position: absolute;
+    bottom: 200px;
+    left: 600px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 3;
+}
+
+.nav-button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e2e8f0;
+    background: rgba(255, 255, 255, 0.9);
+    color: #4a5568;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.nav-button:hover {
+    background: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.nav-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.page-indicator {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #4a5568;
+    padding: 0 8px;
+}
